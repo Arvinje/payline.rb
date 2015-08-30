@@ -1,3 +1,4 @@
+[![Gem Version](https://badge.fury.io/rb/payline.rb.svg)](http://badge.fury.io/rb/payline.rb)
 # Payline
 
 Payline is an API client for handling payments with Payline.ir. You can easily integrate this gem to your ruby app - whether it's based on Rails or other frameworks - and make and verify your IRR payments.
