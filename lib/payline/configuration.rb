@@ -26,6 +26,7 @@ module Payline
       connection = Faraday.new(:url => @main_uri) do |config|
         config.request  :url_encoded             # form-encode POST params
         config.adapter  Faraday.default_adapter  # make requests with Net::HTTP
+        config.headers['User-Agent'] = 'Payline.rb v0.1.1'
       end
       connection
     end
