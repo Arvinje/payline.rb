@@ -27,7 +27,7 @@ Or install it yourself as:
 
 You must configure the gem as below before using it, with a valid API token:
 ```ruby
-Payline.configure |config|
+Payline.configure do |config|
   config.api_token = 'XXXXX-XXXXX-XXXXXXXX-XXXXXXXXX-XXXXXXXXXXXXXXXXXXXXX'
 end
 ```
